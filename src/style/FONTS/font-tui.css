@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "TUI-reg";
+	src: url("hinted-TUITypeCyrillic-Bold.woff") format("truetype");
+	src: url("hinted-TUITypeCyrillicLight-Bold.woff") format("truetype");
+	src: url("hinted-TUITypeCyrillicLight-Regular.woff") format("truetype");
+	src: url("hinted-TUITypeCyrillicLight-Regular.woff") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+* {
+	font-family: "TUI-reg";
+	color: #333333;
+}
+body {
+	margin: 0 auto;
+}

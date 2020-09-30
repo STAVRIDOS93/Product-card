@@ -1,0 +1,13 @@
+.buttonYellow {
+	width: 262px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffe100;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 20px;
+}

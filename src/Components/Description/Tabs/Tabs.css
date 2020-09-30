@@ -1,0 +1,21 @@
+.tabs__buttons {
+	display: flex;
+	margin-top: 40px;
+}
+
+.tabs__button {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f2f2f2;
+	border-radius: 30px;
+	margin-right: 5px;
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+.active__tab {
+	background-color: white;
+	border: 2px solid #dcdcdc;
+}

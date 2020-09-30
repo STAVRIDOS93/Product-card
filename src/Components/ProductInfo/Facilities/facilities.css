@@ -1,0 +1,32 @@
+.product__facilities {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 15px;
+	display: grid;
+	grid-template-columns: 24px 1fr;
+	grid-column-gap: 23px;
+}
+
+.icon__facilities {
+	background: url("https://icon-library.com/images/icon-sprite/icon-sprite-3.jpg");
+	width: 24px;
+	height: 24px;
+}
+
+.all__facilities {
+	font-size: 16px;
+	line-height: 25px;
+	color: #4872f2;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+}
+
+.product__info-right .all__facilities {
+	margin: 20px 0 35px;
+}
+
+.all__facilities:hover {
+	text-decoration: underline;
+}

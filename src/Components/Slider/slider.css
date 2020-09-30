@@ -1,0 +1,31 @@
+.slider__img {
+	overflow: hidden;
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.slider1 .slider__img {
+	height: 500px;
+	border-radius: 10px;
+}
+
+.slider2 .slider__img {
+	height: 100px;
+	margin: 0 11px;
+	border-radius: 5px;
+}
+
+.slider2 .slick-active:first-of-type {
+	background: green !important;
+}
+
+.slider__img img {
+	width: 100%;
+}
+.slider1 {
+	margin-bottom: 20px;
+}
+
+:focus {
+	outline: none !important;
+}

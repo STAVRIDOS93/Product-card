@@ -1,0 +1,10 @@
+.row__product {
+	max-width: 1232px;
+	margin: 0 auto;
+}
+
+.header__info {
+	display: grid;
+	grid-template-columns: 1000px 1fr;
+	grid-column-gap: 30px;
+}

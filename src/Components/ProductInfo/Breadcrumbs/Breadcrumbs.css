@@ -1,0 +1,21 @@
+.breadcrumbs {
+	display: flex;
+	padding: 25px 0;
+}
+
+.breadcrumbs__item {
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 1px solid #b9b9b9;
+	transform: skew(-30deg);
+	text-decoration: none;
+}
+
+.breadcrumbs__item .item__txt {
+	display: block;
+	transform: skew(30deg);
+}
+
+.breadcrumbs__item:first-child {
+	padding-left: 0;
+}
