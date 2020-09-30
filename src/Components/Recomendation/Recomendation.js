@@ -56,9 +56,9 @@ export class Recomendation extends Component {
                                                 <div className="slide__sub-title">
                                                     { hotel.region }
                                                 </div>
-                                                <div className="slide__body">
-                                                    { hotel.acomodation }
-                                                </div>
+                                            </div>
+                                            <div className="slide__body">
+                                                { hotel.acomodation }
                                             </div>
                                             <div className="slide__btn">
                                                 <a href={ `${ hotel.link }` } target="_blank" rel='noopener noreferrer'>от <span>{ hotel.price }</span> { hotel.currency }</a>

@@ -40,17 +40,17 @@
     background-position: center, center;
 }
 .container-multislider .slide__box-container{
-    min-height: 185px;
+    min-height: 165px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-left: 1px solid #DCDCDC;
     border-right: 1px solid #DCDCDC;
     border-bottom: 1px solid #DCDCDC;
     text-align: center;
-    padding: 0 25px 20px;
+    padding: 0 25px 19px;
 }
 .container-multislider .slide__box-wrap{
-    height: 157px;
+    height: 102px;
 }
 .container-multislider .slide__title{
     font-weight: bold;
@@ -76,7 +76,7 @@
 .container-multislider .slide__body{
     font-size: 13px;
     line-height: 15px;
-    padding-top: 35px;
+    padding-bottom: 20px;
 }
 .container-multislider .slide__btn a{
     text-decoration: none;
