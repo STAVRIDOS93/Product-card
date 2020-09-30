@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { SimpleSlider, HeaderInfo, Breadcrumbs } from "./";
+import { SimpleSlider, HeaderInfo, Breadcrumbs, Recomendation } from "./";
 
 import "./App.css";
 
@@ -154,6 +154,53 @@ export class App extends Component {
 					value: "<span className='old__price'>102 500 ₽</span> <span className='new__price'>112 419 ₽</span>",
 				},
 			],
+			recomendationHotel: [
+				{
+					img: 'https://www.tui.ru/CmsPages/GetPhoto.aspx?fileguid=eb2035ef-9ba8-4c3f-a6d4-6ae942e6626e',
+					hotel: 'Side Crown Palace',
+					region: 'Турция, Сиде',
+					acomodation: '2 чел / 7 ночей',
+					link: '#',
+					price: '56 572',
+					currency: '₽',
+				},
+				{
+					img: 'https://www.tui.ru/CmsPages/GetPhoto.aspx?fileguid=37722002-a9ab-495a-864b-8badbfca0c2f',
+					hotel: 'Sheraton Sharjah Beach Resort & SPA',
+					region: 'ОАЭ, Шарджа',
+					link: '#',
+					acomodation: '2 чел / 7 ночей',
+					price: '116 423',
+					currency: '₽',
+				},
+				{
+					img: 'https://www.tui.ru/CmsPages/GetPhoto.aspx?fileguid=5e980d53-d6f8-4917-98c5-837a565219a4',
+					hotel: 'Crystal Springs Beach Hotel',
+					region: 'Кипр, Айя-Напа',
+					link: '#',
+					acomodation: '2 чел / 7 ночей',
+					price: '127 741',
+					currency: '₽',
+				},
+				{
+					img: 'https://www.tui.ru/CmsPages/GetPhoto.aspx?fileguid=37a23adc-f7ef-4a98-989a-0167b3d14fee',
+					hotel: 'Splendid Conference & Spa Beach Resort',
+					region: 'Черногория, Будванская Ривьера',
+					link: '#',
+					acomodation: '2 чел / 7 ночей',
+					price: '200 245',
+					currency: '₽',
+				},
+				{
+					img: 'https://www.tui.ru/CmsPages/GetPhoto.aspx?fileguid=37722002-a9ab-495a-864b-8badbfca0c2f',
+					hotel: 'Sheraton Sharjah Beach Resort & SPA',
+					region: 'ОАЭ, Шарджа',
+					link: '#',
+					acomodation: '2 чел / 7 ночей',
+					price: '116 423',
+					currency: '₽',
+				}
+			],
 			price: {
 				name: "Итого",
 				oldPrice: 102500,
@@ -172,6 +219,7 @@ export class App extends Component {
 					<SimpleSlider photos={data.photoUrls} />
 					<HeaderInfo data={data} />
 				</header>
+				<Recomendation cards={data.recomendationHotel}/>
 			</div>
 		);
 	}
