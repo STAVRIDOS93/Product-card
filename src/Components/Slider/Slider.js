@@ -23,7 +23,7 @@ export class SimpleSlider extends Component {
 				<Slider className="slider1" asNavFor={this.state.nav2} ref={(slider) => (this.slider1 = slider)}>
 					{photos.map((photo, index) => (
 						<div key={index}>
-							<div className="slider__img" style={{ background: `url(${photo})` }}></div>
+							<div className="slider__img" style={{ backgroundImage: `url(${photo})` }}></div>
 						</div>
 					))}
 				</Slider>
@@ -38,7 +38,7 @@ export class SimpleSlider extends Component {
 				>
 					{photos.map((photo, index) => (
 						<div key={index}>
-							<div className="slider__img" style={{ background: `url(${photo})` }}></div>
+							<div className="slider__img" style={{ backgroundImage: `url(${photo})` }}></div>
 						</div>
 					))}
 				</Slider>

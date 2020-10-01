@@ -1,17 +1,17 @@
 .slider__img {
 	overflow: hidden;
-	background-size: cover !important;
-	background-position: center !important;
+	background-size: cover;
+	background-position: center;
 }
 
 .slider1 .slider__img {
-	height: 500px;
+	height: 600px;
 	border-radius: 10px;
 }
 
 .slider2 .slider__img {
 	height: 100px;
-	margin: 0 11px;
+	margin: 0 5.5px;
 	border-radius: 5px;
 }
 
@@ -23,7 +23,7 @@
 	width: 100%;
 }
 .slider1 {
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 }
 
 :focus {

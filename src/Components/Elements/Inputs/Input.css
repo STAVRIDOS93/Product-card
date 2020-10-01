@@ -1,0 +1,37 @@
+.row__input-block {
+	min-width: 131px;
+	padding: 12px;
+	border: 1px solid #b9b9b9;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.row__inputs {
+	display: flex;
+	margin: 50px auto;
+}
+
+.title__input {
+	color: #737373;
+}
+
+select,
+input {
+	color: #3c3c3c;
+	outline: none;
+	border: none;
+	font-size: 17px;
+	line-height: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.row__input-block {
+	margin-right: 20px;
+}
+/* ::-webkit-calendar-picker-indicator {
+	color: transparent;
+	opacity: 1;
+	background: url(//www.gravatar.com/avatar/cbfaff96665b7567defe1b34a883db8b?s=16&d=identicon&r=PG) no-repeat center;
+	background-size: contain;
+} */

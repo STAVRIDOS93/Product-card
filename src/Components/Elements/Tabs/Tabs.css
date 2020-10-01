@@ -1,6 +1,6 @@
 .tabs__buttons {
 	display: flex;
-	margin-top: 40px;
+	margin-top: 57px;
 }
 
 .tabs__button {
@@ -13,9 +13,16 @@
 	margin-right: 5px;
 	padding: 15px 20px;
 	cursor: pointer;
+	border: 2px solid#f2f2f2;
 }
 
 .active__tab {
 	background-color: white;
 	border: 2px solid #dcdcdc;
+}
+
+.result__title {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
 }

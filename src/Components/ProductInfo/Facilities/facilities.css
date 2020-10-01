@@ -30,3 +30,7 @@
 .all__facilities:hover {
 	text-decoration: underline;
 }
+
+.all__facilities {
+	margin: 15px 0;
+}
