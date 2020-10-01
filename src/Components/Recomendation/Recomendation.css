@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 .container-multislider .slick-list{
-    max-width: 1212px;
+    max-width: 1251px;
     width: 100%;
     margin: 0 auto;
 }
@@ -18,8 +18,11 @@
     line-height: 34px;
     text-align: center;
 }
+.container-multislider .sliders__slide{
+    padding: 0 20px;
+}
 .container-multislider .multi__slide{
-    margin: 0 20px 20px;
+    margin: 0 0px 20px;
     max-width: 273px;
     border-radius: 10px;
     width: 100%;
@@ -104,12 +107,12 @@
     left: 0px;
     top: 50%;
     transform: translateY(-50%);
-    background: url('https://www.tui.ru/images-new/svg-icons/icon-arrow-left-50.svg') no-repeat 50%/100%;
+    background: url('./image/icon_arrow_left_50_w.png') no-repeat 50%/100%;
 }
 .container-multislider .next__custom-arr{
     right: 0px;
     top: 50%;
     transform: translateY(-50%);
-    background: url('https://www.tui.ru/images-new/svg-icons/icon-arrow-right-50.svg') no-repeat 50%/100%;
+    background: url('./image/icon_arrow_right_50_w.png') no-repeat 50%/100%;
 }
 

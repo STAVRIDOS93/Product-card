@@ -32,6 +32,14 @@ export class Recomendation extends Component {
             speed: 500,
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
+            responsive: [
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
         };
         return (
             <div className="container-multislider">
@@ -45,23 +53,25 @@ export class Recomendation extends Component {
                         <div className="multislider__wrap">
                             <Slider {...setting}>
                                 {cards.map((hotel, index) => (
-                                    <div key={index} className="multi__slide" onClick={() => window.open(`${hotel.link}`)}>
-                                        <div className="slide__box-img" style={{ backgroundImage: `url(${hotel.img})` }}>
-                                        </div>
-                                        <div className="slide__box-container">
-                                            <div className="slide__box-wrap">
-                                                <div className="slide__title">
-                                                    { hotel.hotel }
-                                                </div>
-                                                <div className="slide__sub-title">
-                                                    { hotel.region }
-                                                </div>
+                                    <div className="sliders__slide">
+                                        <div key={index} className="multi__slide" onClick={() => window.open(`${hotel.link}`)}>
+                                            <div className="slide__box-img" style={{ backgroundImage: `url(${hotel.img})` }}>
                                             </div>
-                                            <div className="slide__body">
-                                                { hotel.acomodation }
-                                            </div>
-                                            <div className="slide__btn">
-                                                <a href={ `${ hotel.link }` } target="_blank" rel='noopener noreferrer'>от <span>{ hotel.price }</span> { hotel.currency }</a>
+                                            <div className="slide__box-container">
+                                                <div className="slide__box-wrap">
+                                                    <div className="slide__title">
+                                                        { hotel.hotel }
+                                                    </div>
+                                                    <div className="slide__sub-title">
+                                                        { hotel.region }
+                                                    </div>
+                                                </div>
+                                                <div className="slide__body">
+                                                    { hotel.acomodation }
+                                                </div>
+                                                <div className="slide__btn">
+                                                    <a href={ `${ hotel.link }` } target="_blank" rel='noopener noreferrer'>от <span>{ hotel.price }</span> { hotel.currency }</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
